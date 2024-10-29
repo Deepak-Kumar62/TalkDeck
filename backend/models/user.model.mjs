@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema({
     gender: {
         type : String,
         required : true,
-        enum: ["male", "Female"]
+        enum: ["male", "female"]
     },
 
     profilePic: {
